@@ -1,0 +1,74 @@
+body{
+	background-color: grey;
+	display:flex;
+	flex-direction : column;
+}
+
+.informations{
+	background-color:rgb(25,25,225,5);
+	color : white;
+	border : solid white;
+	display : flex;
+	flex-direction : column;
+}
+
+.informations>div{
+	display:flex;
+}
+
+.informations>div>p{
+	padding:5px;
+}
+
+.ennemis>div{
+	display : flex;
+}
+
+.ennemis{
+	display:flex;
+	flex-direction : column;
+}
+
+.actions{
+	background-color:rgb(25,25,225,5);
+	color : white;
+	border : solid white;
+}
+
+.dialogue{
+	background-color:rgb(25,25,225,5);
+	color : white;
+	border : solid white;
+}
+
+.centre{
+	display:flex;
+	justify-content:space-between;
+	align-content:center;
+}
+
+.bas{
+	display : flex;
+	justify-content : center;
+	align-items : flex-end;
+}
+.actions>p:hover{
+	background-color:orange;
+}
+
+#spriteM1:hover + span{
+	display : block;
+}
+
+#spriteM2:hover + span{
+	display : block;
+}
+
+#spriteM3:hover + span{
+	display : block;
+}
+
+span{
+	display:none;
+	color:white;
+}
